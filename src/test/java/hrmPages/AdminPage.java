@@ -60,8 +60,6 @@ public class AdminPage extends BasePage{
 	    boolean roleFound = true;  // Flag to check if the role is selected
 	    for (WebElement e : list) {
 	        // Compare role with element text, ignoring case
-	    	System.out.println(e.getText());
-	    	System.out.println(role);
 	        if (role.equalsIgnoreCase(e.getText().trim())) {
 	            e.click();  // Click the role if it's found
 	            log.info(role + " role is selected");
