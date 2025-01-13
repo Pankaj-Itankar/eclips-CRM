@@ -70,7 +70,7 @@ public class AdminPage extends BasePage{
 
 	    // If the role was not found, log the message
 	    if (!roleFound) {
-	        log.info(role + " role is not available.");
+	        log.info(role + " role is not available on the page.");
 	    }
 	}
 
